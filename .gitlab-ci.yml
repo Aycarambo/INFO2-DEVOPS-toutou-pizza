@@ -20,7 +20,7 @@ stages:          # List of stages for jobs, and their order of execution
   - coverage
 
 coverage:
-    image: python:3.6
+    image: python:3.8
     script: 
         - pip install -r requirements.txt
         - pip install pytest pytest-cov
