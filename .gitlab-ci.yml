@@ -21,7 +21,7 @@ stages:          # List of stages for jobs, and their order of execution
 
 coverage:
     script: 
-        - ! pip install pytest pytest-cov
+        - python3 pip install pytest pytest-cov
         - coverage run -m pytest
 
 build-job:       # This job runs in the build stage, which runs first.
