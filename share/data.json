@@ -1,0 +1,150 @@
+[
+  {
+    "model": "restaurant.address",
+    "pk": 1,
+    "fields": {
+      "nb": 12,
+      "street": "Rue Des Merciers",
+      "zipcode": 17000,
+      "city": "La Rochelle",
+      "complement": "bis"
+    }
+  },
+  {
+    "model": "restaurant.restaurant",
+    "pk": 1,
+    "fields": {
+      "name": "Toutou PIzza La Rochelle",
+      "address": 1
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 1,
+    "fields": {
+      "name": "Farine de bl\u00e9",
+      "allergen": true
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 2,
+    "fields": {
+      "name": "Levure",
+      "allergen": false
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 3,
+    "fields": {
+      "name": "Tomate",
+      "allergen": false
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 4,
+    "fields": {
+      "name": "Jambon",
+      "allergen": false
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 5,
+    "fields": {
+      "name": "Champignons",
+      "allergen": false
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 6,
+    "fields": {
+      "name": "Mozarella",
+      "allergen": false
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 7,
+    "fields": {
+      "name": "Gorgonzolla",
+      "allergen": false
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 8,
+    "fields": {
+      "name": "Percorino",
+      "allergen": false
+    }
+  },
+  {
+    "model": "restaurant.ingredient",
+    "pk": 9,
+    "fields": {
+      "name": "Parmesan",
+      "allergen": false
+    }
+  },
+  {
+    "model": "restaurant.pizza",
+    "pk": 1,
+    "fields": {
+      "name": "Reine",
+      "price": 9,
+      "ingredients": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "model": "restaurant.pizza",
+    "pk": 2,
+    "fields": {
+      "name": "Margarita",
+      "price": 8,
+      "ingredients": [
+        1,
+        2,
+        3,
+        6
+      ]
+    }
+  },
+  {
+    "model": "restaurant.pizza",
+    "pk": 3,
+    "fields": {
+      "name": "Quatre fromages",
+      "price": 11,
+      "ingredients": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+  {
+    "model": "restaurant.pizza",
+    "pk": 4,
+    "fields": {
+      "name": "Pizza de Nico",
+      "price": 40,
+      "ingredients": [
+        1,
+      ]
+    }
+  }
+]
