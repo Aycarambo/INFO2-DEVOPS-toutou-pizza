@@ -24,8 +24,9 @@ coverage:
     script: 
         - pip install -r requirements.txt
         - pip install pytest pytest-cov
-        - python3 manage.py runserver
-        - coverage run -m pytest Test/testIngredient.py Test/testPizza.py
+        - pip install coverage
+        - coverage run -m pytest Test/testPizza.py Test/testIngredient.py
+
 
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
