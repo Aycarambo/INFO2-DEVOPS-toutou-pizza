@@ -24,7 +24,6 @@ coverage:
     script: 
         - pip install -r requirements.txt
         - pip install pytest pytest-cov
-        - source py3venv/bin/activate
         - python3 manage.py runserver
         - coverage run -m pytest Test/testIngredient.py Test/testPizza.py
 
