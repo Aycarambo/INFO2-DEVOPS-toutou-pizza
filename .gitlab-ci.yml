@@ -23,7 +23,7 @@ coverage:
     image: python:3.6
     script: 
         - pip install pytest pytest-cov
-        - coverage run -m pytest
+        - coverage run -m pytest Test/testIngredient.py Test/testPizza.py
 
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
