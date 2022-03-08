@@ -20,7 +20,7 @@ stages:          # List of stages for jobs, and their order of execution
   - coverage
 
 coverage:
-    stage: build
+    stage: test
     script: 
         - pip install pytest pytest-cov
         - coverage run -m pytest
