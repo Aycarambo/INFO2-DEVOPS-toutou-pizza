@@ -1,2 +1,2 @@
-djangorestframework~=3.12.14
+djangorestframework~=3.12
 django~=2.2
