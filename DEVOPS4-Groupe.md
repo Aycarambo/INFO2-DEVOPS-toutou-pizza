@@ -144,9 +144,3 @@ En entreprise, ce serait bien insuffisant. Si nous avions plus de temps, il faud
 
 Un patch (fichier .patch) est un fichier contenant du code formaté. Il permet de modifier du code existant en ajoutant ou modifiant des fonctionnalités. 
 De plus, un patch va permettre d'ajouter le code en question dans la copie d'un fichier déjà existant plutôt que de directement remplacer ce fichier par un nouveau.
-
-<br> 
-
-<br> 
-
-## **Nous nous sommes arrêtés ici**
